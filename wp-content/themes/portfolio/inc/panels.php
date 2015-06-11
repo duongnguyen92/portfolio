@@ -37,8 +37,8 @@ function vantage_prebuilt_page_layouts($layouts){
 			),
 			1 =>
 			array(
-				'title' => __('Lession', 'vantage'),
-				'text' => __('Lession about Android.','vantage'),
+				'title' => __('GitHub', 'vantage'),
+				'text' => __('My project.','vantage'),
 				'icon' => 'icon-ok-circle',
 				'image' => '',
 				'icon_position' => 'top',
@@ -55,8 +55,8 @@ function vantage_prebuilt_page_layouts($layouts){
 			),
 			2 =>
 			array(
-				'title' => __('GitHub','vantage'),
-				'text' => __("My project.",'vantage'),
+				'title' => __('Game','vantage'),
+				'text' => __("Games created by Ta Van Dung.",'vantage'),
 				'icon' => 'icon-time',
 				'image' => '',
 				'icon_position' => 'top',
@@ -72,37 +72,37 @@ function vantage_prebuilt_page_layouts($layouts){
 				),
 			),
 
-			4 =>
-			array(
-				'title' => __('Latest Posts', 'vantage'),
-				'template' => 'loops/loop-carousel.php',
-				'post_type' => 'post',
-				'posts_per_page' => '4',
-				'orderby' => 'date',
-				'order' => 'DESC',
-				'sticky' => '',
-				'additional' => '',
-				'info' =>
-				array(
-					'class' => 'SiteOrigin_Panels_Widgets_PostLoop',
-					'id' => '5',
-					'grid' => '2',
-					'cell' => '0',
-				),
-			),
-			5 =>
-			array(
-				'title' => '',
-				'text' => __('There are a lot of useful lesson for you.','vantage'),
-				'filter' => true,
-				'info' =>
-				array(
-					'class' => 'WP_Widget_Text',
-					'id' => '7',
-					'grid' => '2',
-					'cell' => '1',
-				),
-			),
+//			4 =>
+//			array(
+//				'title' => __('Latest Posts', 'vantage'),
+//				'template' => 'loops/loop-carousel.php',
+//				'post_type' => 'post',
+//				'posts_per_page' => '4',
+//				'orderby' => 'date',
+//				'order' => 'DESC',
+//				'sticky' => '',
+//				'additional' => '',
+//				'info' =>
+//				array(
+//					'class' => 'SiteOrigin_Panels_Widgets_PostLoop',
+//					'id' => '5',
+//					'grid' => '2',
+//					'cell' => '0',
+//				),
+//			),
+//			5 =>
+//			array(
+//				'title' => '',
+//				'text' => __('There are a lot of useful lesson for you.','vantage'),
+//				'filter' => true,
+//				'info' =>
+//				array(
+//					'class' => 'WP_Widget_Text',
+//					'id' => '7',
+//					'grid' => '2',
+//					'cell' => '1',
+//				),
+//			),
 		),
 		'grids' =>
 		array(

@@ -3087,3 +3087,28 @@ body.layout-full {
 .profile-image {
 	float: left
 }
+
+.game-content .game-grid {
+	text-align: center;
+}
+
+.game-content .game-grid p{
+	font-family: 'MyriadProBoldCondensed';
+	font-size: 18px;
+}
+
+.game-content .game-grid .banner{
+	margin-top: 6%;
+}
+.game-content .game-grid img{
+	margin-top: 6%;
+	margin-bottom: 6%;
+}
+
+.game-content .row-game{
+	margin-top: 2%;
+}
+
+.game-content h1{
+	font-family: 'ArialMT-Light';
+}
