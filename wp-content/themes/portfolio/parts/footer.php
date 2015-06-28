@@ -15,6 +15,6 @@
 		</div><!-- #site-info -->
 	<?php endif; ?>
 
-	<?php echo apply_filters( 'vantage_footer_attribution', '<div id="theme-attribution">' . sprintf( __(' <a href="%s">Develop by Ngyễn Tuấn Dương</a>', 'vantage'), '#') . '</div>' ) ?>
+	<?php echo apply_filters( 'vantage_footer_attribution', '<div id="theme-attribution">' . sprintf( __(' <a href="%s">Develop by Ngyễn Tuấn Dương</a> <br /> <p>duongnguyen.it92@gmail.com</p>', 'vantage'), '#') . '</div>' ) ?>
 
 </footer><!-- #colophon .site-footer -->

@@ -39,19 +39,18 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<img src="<?php echo get_template_directory_uri() ?>/images/dung.jpg" class="img-responsive img-rounded" width="600" height="300" alt="<?php esc_attr_e('Demo Slide', 'vantage') ?>" />
+					<img src="<?php echo get_template_directory_uri() ?>/images/profile.jpg" class="img-responsive img-rounded" width="600" height="300" alt="<?php esc_attr_e('Demo Slide', 'vantage') ?>" />
 				</div>		
 				<div class="col-md-6">
 					<h2><strong>Profile</strong></h2>
-					<p>
-					Full Name: Ta Van Dung
-					</p>
-					<p>
-					Job: Mobile Developer
-					</p>
-					<blockquote>
-					Pri pertinacia elaboraret te, an eirmod delicatissimi nec. Eu liber quodsi maiorum mei. 
-					Civibus perfecto rationibus id his, est noster nostrud aliquando at.
+					<blockquote>Full Name: Tạ Văn Dũng <br/>
+					Birth of Date: 30/05/1992<br/>
+					Country: Mai Trung - Hiệp Hoà - Bắc Giang<br/>
+					Phone Number: 01669020104<br/>
+					Email: itprono3@gmail.com<br/>
+					Facebook: https://www.facebook.com/dung.tavan<br/>
+					Favorite Color: Blue and Yellow<br/>
+					Zodiac: Gemini <br/>
 					</blockquote>
 				</div>
 			</div>		
@@ -69,3 +68,5 @@ get_header(); ?>
 	</div><!-- /content-left -->
 	<div class="clr"></div>
 </div><!-- /content -->
+</div>
+<?php get_footer(); ?>

@@ -953,8 +953,7 @@ article.sticky {
 article.post,
 article.page {
   zoom: 1;
-  margin-bottom: 40px;
-  padding-bottom: 40px;
+
   border-bottom: 1px solid #EEEEEE;
 }
 article.post:before,
@@ -3111,4 +3110,115 @@ body.layout-full {
 
 .game-content h1{
 	font-family: 'ArialMT-Light';
+}
+
+
+.blog-item {
+  float: left;
+  width: 234px;
+  border-top: 1px solid #f0f0e5;
+  border-right: 1px solid #f0f0e5;
+  position: relative;
+  padding: 40px 13px 5px 20px;
+  height: 600px;
+}
+span.date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  background-color: #f5f5ec;
+  border-right: 1px solid #eaeadd;
+  border-bottom: 1px solid #eaeadd;
+  width: 69px;
+  height: 45px;
+  text-align: center;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding-top: 3px;
+}
+span.date strong {
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: -3px;
+  color: #676761;
+}
+.blog-item h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 5px;}
+  .blog-item p {
+  line-height: 20px;
+  color: #676761;
+}
+.meta-info {
+  font-style: italic;
+  font-size: 12px;
+  color: #c0c0b5;
+  padding-bottom: 7px;}
+  .blog-item a {
+  text-decoration: none;
+  color: #676761;
+}
+
+.portfolio-1{
+	max-height: 337px;
+}
+
+.portfolio-2 {
+	max-height: 326px;
+}
+
+.portfolio-3{
+	max-height: 443px;
+}
+
+.portfolio-4 {
+	 height: 1226px;
+}
+
+.portfolio  ul{
+	 margin: 0 0 0.5em 1em;
+}
+
+.github  .label{
+	color: #000;
+	font-size: 15px;
+	padding-top: 8px;
+	display: block;
+	font-weight: normal;
+}
+
+.github .link{
+	display: block;
+	margin-left: 2%;
+	font-style: italic;
+}
+.github .block{
+	padding-top: 2%;
+	border-bottom: 1px solid #cacaca;
+	width: 60%;
+	margin-left: 16%;
+	padding-bottom: 1%;
+}
+
+.github .maingithub{
+		
+}
+
+.also-game  h1{
+	margin-top: 5%;
+	display: inline-block;
+}
+
+.also-game p{
+	margin-top: 3%;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.also-game a{
+	font-style: italic;
 }

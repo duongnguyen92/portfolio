@@ -25,7 +25,7 @@ function vantage_prebuilt_page_layouts($layouts){
 				'image' => '',
 				'icon_position' => 'top',
 				'more' => __('See more','vantage'),
-				'more_url' => '#',
+				'more_url' => 'http://www.tvd12.com/dungportfolio/',
 				'box' => false,
 				'info' =>
 				array(
@@ -43,7 +43,7 @@ function vantage_prebuilt_page_layouts($layouts){
 				'image' => '',
 				'icon_position' => 'top',
 				'more' => __('See more','vantage'),
-				'more_url' => '#',
+				'more_url' => 'http://www.tvd12.com/github/',
 				'box' => false,
 				'info' =>
 				array(
@@ -61,7 +61,7 @@ function vantage_prebuilt_page_layouts($layouts){
 				'image' => '',
 				'icon_position' => 'top',
 				'more' => __('See more','vantage'),
-				'more_url' => '#',
+				'more_url' => 'http://www.tvd12.com/game/',
 				'box' => false,
 				'info' =>
 				array(

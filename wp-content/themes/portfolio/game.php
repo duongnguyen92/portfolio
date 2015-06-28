@@ -23,7 +23,7 @@ get_header(); ?>
 	<section id="about" class="home-section">
 		<div class="container">
 			<div class="container-fluid">
-			<h1>Game created by me: </h1>
+			<h1>Game created by me </h1>
 				  <div class="row-game">
 				  <div class="col-xs-6 col-sm-3 game-grid" style="background-color:lightcyan;">
 						<div class="logo"><img src="<?php echo get_bloginfo('template_directory'). "/images/cut-gift.png" ?>" alt="Cut the gift" href="#" height="180" width="180" /></div>
@@ -54,6 +54,15 @@ get_header(); ?>
 					<!-- Add clearfix for only the required viewport -->
 					
 				  </div>
+				
+				  <div class="also-game">
+					  <h1>Also</h1>
+					<p class="title">Game mobile Video Poker </p>
+					<a class="link" href="https://www.play.google.com/store/apps/details?id=com.tdgc.dragonvideopoker">https://www.play.google.com/store/apps/details?id=com.tdgc.dragonvideopoker</a>
+					<p class"title">Game mobile Onet Pikachu </p>
+					<a class="link" href="https://www.play.google.com/store/apps/details?id=com.tdg.matchinganimal">https://www.play.google.com/store/apps/details?id=com.tdg.matchinganimal</a>
+				
+				  </div>
 </div>
 		</div> 
 
@@ -75,3 +84,5 @@ get_header(); ?>
 	</div><!-- /content-left -->
 	<div class="clr"></div>
 </div><!-- /content -->
+</div>
+<?php get_footer(); ?>
