@@ -36,7 +36,7 @@
 			$post_id 			= get_the_ID();
 
 			$bg = et_get_option( 'fusion_bg_image' );
-			if ( '' == $bg ) $bg = get_template_directory_uri() . '/images/bg_fusion.jpg';
+			if ( '' == $bg ) $bg = get_template_directory_uri() . '/images/header-bg-1.jpg';
 
 			$slide_bg 			= ( $slide_bg_url = get_post_meta( $post_id, '_et_slide_bg', true ) ) && '' != $slide_bg_url ? $slide_bg_url : $bg;
 

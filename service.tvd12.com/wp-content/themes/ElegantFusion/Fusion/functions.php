@@ -422,7 +422,7 @@ function et_admin_scripts_styles( $hook ) {
 
 function et_attach_bg_images() {
 	$bg = et_get_option( 'fusion_bg_image' );
-	if ( '' == $bg ) $bg = get_template_directory_uri() . '/images/bg_fusion.jpg';
+	if ( '' == $bg ) $bg = get_template_directory_uri() . '/images/header-bg-1.jpg';
 ?>
 	<style>
 		#top-area, #footer-bottom { background-image: url(<?php echo esc_url( $bg ); ?>); }
@@ -933,3 +933,71 @@ function prefix_ajax_sp_complete() {
 
 }
 
+
+add_action( 'wp_ajax_tenkh_complete', 'prefix_ajax_tenkh_complete' );
+add_action( 'wp_ajax_nopriv_tenkh_complete', 'prefix_ajax_tenkh_complete' );
+
+function prefix_ajax_tenkh_complete() {
+	global $wpdb;
+	$data = array();
+	$ma_kh = $_POST['ma_kh'];
+	$query = "SELECT main.ID, main.post_title as title FROM wp_posts as main INNER JOIN wp_postmeta as post ON main.ID = post.post_id WHERE post_type = 'khachhang' AND post.meta_key = 'ma_kh' and  post.meta_value LIKE '".strtoupper($ma_kh)."%'";
+	$result = $wpdb->get_results($query);
+	foreach ( $result as $post ) {
+        $name = $post->ID .'|'.$post->title;
+		array_push($data, $name);	
+	}
+    echo json_encode( $data );
+    die;
+
+}
+
+
+add_action( 'wp_ajax_tensp_complete', 'prefix_ajax_tensp_complete' );
+add_action( 'wp_ajax_nopriv_tensp_complete', 'prefix_ajax_tensp_complete' );
+
+function prefix_ajax_tensp_complete() {
+	global $wpdb;
+	$data = array();
+	$ma_sp = $_POST['ma_sp'];
+	$query = "SELECT post.meta_value as value, main.post_title as title FROM wp_posts as main INNER JOIN wp_postmeta as post ON main.ID = post.post_id WHERE post_type = 'sanpham' AND post.meta_key = 'ma_sp' and  post.meta_value LIKE '".strtoupper($ma_sp)."%'";
+	$result = $wpdb->get_results($query);
+	foreach ( $result as $post ) {
+        $name = $post->value .'|'.$post->title;
+		array_push($data, $name);	
+	}
+    echo json_encode( $data );
+    die;
+
+}
+
+add_action( 'wp_ajax_diachi_complete', 'prefix_ajax_diachi_complete' );
+add_action( 'wp_ajax_nopriv_diachi_complete', 'prefix_ajax_diachi_complete' );
+
+function prefix_ajax_diachi_complete() {
+	global $wpdb;
+	$data = array();
+	$ten_kh = $_POST['ten_kh'];
+	$query = "SELECT post.post_id , post.meta_value FROM `wp_postmeta` as post INNER JOIN `wp_posts` as main ON post.post_id = main.ID WHERE post.meta_key = 'ten_kh' AND post.meta_value LIKE '".strtoupper($ten_kh)."%' limit 0,1";
+	$result = $wpdb->get_results($query);
+	$iD = $result[0]->post_id;
+	$query = "SELECT meta_value FROM wp_postmeta WHERE meta_key = 'diachi' AND post_id = $iD ";
+	$result = $wpdb->get_results($query);
+	echo $result[0]->meta_value;
+    die;
+
+}
+
+add_action( 'wp_ajax_add_sp_demo', 'prefix_ajax_add_sp_demo' );
+add_action( 'wp_ajax_nopriv_add_sp_demo', 'prefix_ajax_add_sp_demo' );
+
+function prefix_ajax_add_sp_demo() {
+	global $wpdb;
+	$data = array();
+	$post_title = $_POST['post_title'];
+	$query = "INSERT INTO wp_product (product_name) VALUES ('$post_title');";
+	echo $query;
+	$result = $wpdb->get_results($query);
+    die;
+
+}

@@ -11,7 +11,7 @@
 				else echo( $footerNav );
 			?>
 
-			<p id="copyright"><?php printf( __( 'Designed by %1$s | Powered by %2$s', 'Fusion' ), '<a href="http://www.elegantthemes.com" title="Premium WordPress Themes">Elegant Themes</a>', '<a href="http://www.wordpress.org">WordPress</a>' ); ?></p>
+			<p id="copyright"><?php printf( __( 'Designed by %1$s', 'Fusion' ), '<a href="#" title="Developer">Duong Nguyen</a>' ); ?></p>
 		</div> <!-- end .container -->
 	</div> <!-- end #footer-bottom -->
 

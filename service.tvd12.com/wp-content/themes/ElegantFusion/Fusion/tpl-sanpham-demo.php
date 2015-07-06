@@ -1,5 +1,5 @@
 ﻿<?php
-// Template Name: San pham
+// Template Name: San pham Demo
 get_header();   
 ?>
 
@@ -22,6 +22,11 @@ $posts = get_posts( $args );
 	<form action="" method="post">
 		<table class="table table-condensed table-striped">
 			<tr>
+				<td>Mã sản phẩm: </td>
+				<td><input id="ma_sp" class="text required" name="ma_sp" value="" /></td>
+				<td><span id="ma_sp_error" class="text required" name="ma_sp" value="" ></span></td>
+			</tr>
+			<tr>
 				<td>Tên sản phẩm: <span style="color: red">* </span></td>
 				<td><input type="text" class="text required" name="post_title" id="post_title" value="" /></td>
 				<td><span class="text required" name="post_title" id="post_title_error" value="" ></span></td>
@@ -41,8 +46,6 @@ jQuery(function($){
 	$('#accept-wanted').click(function(){
 		var url = '<?php echo get_site_url() . "/wp-admin/admin-ajax.php"; ?>'; 
 		var post_title = $('#post_title').val();
-		var post_status = 'publish';
-		var post_type = 'sanpham';
 		var error = false;
 		if(!(post_title) || post_title == ''){
 			$('#post_title_error').html('Mời bạn nhập tên sản phẩm!');
@@ -55,11 +58,9 @@ jQuery(function($){
 			$.post(
 			url, 
 			{
-				  'action': 'add_foobar',
-				  'post_status': post_status,
-				  'post_type': post_type,
+				  'action': 'add_sp_demo',
 				  'post_title': post_title,
-			},
+			}, 
 			function(response){
 				$('.table-sanpham').html(response); 
 			}
@@ -68,3 +69,4 @@ jQuery(function($){
 	});
 });
 </script>
+<?php get_footer(); ?>

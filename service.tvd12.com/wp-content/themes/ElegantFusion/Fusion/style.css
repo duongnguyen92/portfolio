@@ -115,7 +115,7 @@ img { max-width: 100%; height: auto; }
 		body.home.blog #top-area, body.et_default_homepage #top-area { padding-bottom: 0; }
 
 		.page-title-area { color: #fff; text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); padding-top: 130px; clear: both; }
-		.page-title-area h1, .description h2 { font-size: 60px; color: #fff; }
+		.page-title-area h1, .description h2 { font-size: 25px; color: #7f0000; }
 
 		#breadcrumbs-wrapper, #services {
 border-top: 1px solid #304854;
@@ -393,7 +393,7 @@ background: linear-gradient(to bottom, #142027 0%,#17262e 100%); /* W3C */ }
 }
 
 
-#et-slider-wrapper { height: 845px; position: relative; background: #0c151b; }
+#et-slider-wrapper { height: 650px; position: relative; background: #0c151b; }
 	.et-slide { background-repeat: no-repeat; background-position: top center; -moz-background-size: cover; -webkit-background-size: cover; background-size: cover; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 		.et-slide .container { padding: 220px 0 0; }
 			.et-slide .description { text-shadow: 0 2px 2px rgba(0,0,0,0.3); color: #fff; font-size: 18px; float: left; width: 412px; padding-top: 95px;
@@ -523,7 +523,7 @@ background: linear-gradient(to bottom, #2a3f4a 0%,#1e2f37 100%); /* W3C */
 	#footer-copyright { margin-top: -9px; font-family: Georgia, serif; font-style: italic; font-size: 16px; color: #c5c5c5; margin-bottom: -5px; }
 	.footer-widget { float: left; width: 280px; margin-right: 60px; color: #787878; }
 		.footer-widget h4.widgettitle { font-size: 30px; padding-bottom: 9px; text-transform: uppercase; color: #454545; }
-#footer-bottom { padding: 55px 0 25px; text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5); }
+#footer-bottom { padding: 55px 0 25px; text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5); background-position: 0px -131px; }
 	.bottom-nav li { float: left; padding-right: 22px; }
 		.bottom-nav li.current_page_item a { color: #c3e54b; font-weight: 800; }
 		.bottom-nav li a { color: #fff; text-decoration: none; }
@@ -1007,4 +1007,15 @@ background: linear-gradient(to bottom, .et_color_scheme_red#770e0e 0%,#560101 10
 	color: #bdd846;
 	font-style: none;;
 	font-size: 18px;
+}
+#et-slider-wrapper #et-slides .description {
+	display: none;
+}
+
+#et-slider-wrapper #et-slides .featured-image {
+	display: none;
+}
+
+#footer-bottom .bottom-nav {
+	display: none;
 }

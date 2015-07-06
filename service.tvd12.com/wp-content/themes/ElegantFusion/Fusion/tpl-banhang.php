@@ -75,6 +75,91 @@ $posts = get_posts( $args );
 <script type="text/javascript">
 jQuery(function($){
 	
+	$( "#ten_kh" ).blur(function() {
+	  var ten_kh = $("#ten_kh").val();
+	  var url = '<?php echo get_site_url() . "/wp-admin/admin-ajax.php"; ?>'	;
+	  $.post(
+			url,
+			{
+				  'action': 'diachi_complete',
+				  'ten_kh': ten_kh,
+			}, 
+			function(response){
+				$('#diachi').val(response);
+			}
+		);
+	});
+	
+	$('#ma_kh').autocomplete({
+	source: function( request, response ) {
+		var ma_kh = $('#ma_kh').val();
+		$.ajax({
+			url: "<?php bloginfo('url'); ?>/wp-admin/admin-ajax.php",
+			dataType: "json",
+			method: 'post',
+			data: {
+				action: 'tenkh_complete',
+				name_startsWith: request.term,
+				type: 'country_table',
+				row_num : 1,
+				ma_kh : ma_kh
+			},
+			 success: function( data ) {
+				 response( $.map( data, function( item ) {
+				 	var code = item.split("|");
+					return {
+						 
+						label: code[0],
+						value: code[0],
+						data : item
+					}
+				}));
+			}
+		});
+	},
+	autoFocus: true,	      	
+	minLength: 0,	
+	select: function( event, ui ) {
+		var names = ui.item.data.split("|");						
+		$('#ten_kh').val(names[1]);
+	}
+});
+	
+	$('#ma_sp').autocomplete({
+	source: function( request, response ) {
+		var ma_sp = $('#ma_sp').val();
+		$.ajax({
+			url: "<?php bloginfo('url'); ?>/wp-admin/admin-ajax.php",
+			dataType: "json",
+			method: 'post',
+			data: {
+				action: 'tensp_complete',
+				name_startsWith: request.term,
+				type: 'country_table',
+				row_num : 1,
+				ma_sp : ma_sp
+			},
+			 success: function( data ) {
+				 response( $.map( data, function( item ) {
+				 	var code = item.split("|");
+					return {
+						 
+						label: code[0],
+						value: code[0],
+						data : item
+					}
+				}));
+			}
+		});
+	},
+	autoFocus: true,	      	
+	minLength: 0,	
+	select: function( event, ui ) {
+		var names = ui.item.data.split("|");						
+		$('#ten_sp').val(names[1]);
+	}
+});
+	
 	$('#ten_kh').autocomplete({
 	source: function( request, response ) {
 		var ten_kh = $('#ten_kh').val();
