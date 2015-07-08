@@ -1001,3 +1001,78 @@ function prefix_ajax_add_sp_demo() {
     die;
 
 }
+
+
+add_action( 'wp_ajax_auto_show', 'prefix_ajax_auto_show' );
+add_action( 'wp_ajax_nopriv_auto_show', 'prefix_ajax_auto_show' );
+
+function prefix_ajax_auto_show() {
+	global $wpdb;
+
+	$myrows = $wpdb->get_results( "SELECT product_id, product_name FROM wp_product" );
+?>
+		
+		<table class="table table-condensed table-striped list-product">
+			<thead>
+				<tr>
+					<th class="col-sm-1">Ngày bán</th>
+					<th class="col-sm-1">Tên khách hàng</th>
+				</tr>
+			</thead>
+			<tbody>
+					<?php 
+						if ($myrows) {
+							foreach ( $myrows as $myrow ) { ?>
+								<tr>
+									<?php $postID = $post->ID; ?>
+									<td><?php echo $myrow->product_id ?></td>
+									<td><?php echo $myrow->product_name ?></td>
+								</tr>
+								<?php
+							  }
+							}
+					?>
+			</tbody>
+		</table> 
+<?php
+	die();
+}
+
+add_action( 'wp_ajax_add_product_demo', 'prefix_ajax_add_product_demo' );
+add_action( 'wp_ajax_nopriv_add_product_demo', 'prefix_ajax_add_product_demo' );
+
+function prefix_ajax_add_product_demo() {
+	global $wpdb;
+	if(isset($_POST['post_title'])){
+		$name = $_POST['post_title'];
+		$wpdb->get_results( "INSERT INTO wp_product (product_name) VALUES ('$name')" );
+		$products = $wpdb->get_results( "SELECT * FROM wp_product  ORDER BY product_id ASC LIMIT 0,10");
+	
+	?>
+	<table class="table table-condensed table-striped product">
+			<thead>
+				<tr>
+					<th class="col-sm-1">Mã sản phẩm</th>
+					<th class="col-sm-1">Tên sản phẩm</th>
+				</tr>
+			</thead>
+			<tbody>
+					<?php 
+						if ($products) {
+							foreach ( $products as $product ) { ?>
+								<tr>
+								
+									<td><?php echo $product->product_id ?></td>
+									<td><?php echo $product->product_name ?></td>
+								</tr>
+								<?php
+							  }
+							}
+					?>
+			</tbody>
+		</table> 
+	<?php
+
+	}
+	die();
+}
