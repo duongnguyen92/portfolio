@@ -134,7 +134,9 @@ get_header(); ?>
 
 		<h2><a>Quá trình làm việc</a></h2>
 		<ul><li>3/2012 đến 9/2012: Xây dựng website quản lý cho trường THPT Tân Yên số 2 Bắc Giang</li>
-		<li>15/12/2013 đến nay: Làm việc tại công ty Song Long (Twin Dragons Games)</li>
+		<li>Từ 12/2013 đến 06/2015: Làm việc tại công ty Twin Dragons Games</li>
+		<li>Từ 01/2015 đến 05/2015: Làm việc tại Alle Studio</li>
+		<li>Từ 06/2015 đến nay: Làm việc tại công ty MWork</li>
 	</ul>
 	</article> <!-- end .blog-item -->
 	<article id="post-160" class="blog-item last post-160 post type-post status-publish format-standard hentry category-blog portfolio-4">
@@ -174,6 +176,7 @@ get_header(); ?>
 		<li>Game mobile Cut The Gift http://www.game.allestudio.com/cut-the-gift.php</li>
 		<li>Ứng dụng hỗ trợ kéo thả trong lập trình game với cocos2d-x https://www.github.com/tavandung12/Plugin/tree/master/com.tvd.gameview.ext </li>
 		<li>Dự án hỗ trợ tích hợp các tiện ích trong cocos2d-x https://www.github.com/tavandung12/Cocos2dx-V3-Game/tree/master/MyTestGameV3</li>
+		<li>Dự án YOLO Launcher https://play.google.com/store/apps/details?id=net.yoloapps.launcher</li>
 	</ul>
 	</article> <!-- end .blog-item -->	
 	

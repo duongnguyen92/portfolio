@@ -458,11 +458,134 @@ body {
   overflow: hidden;
 }
 .layout-full #page-wrapper .full-container {
-  max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
 }
+.contact-ft {
+  width: 33%;
+  height: 330px;
+  display: block;
+  float: left;
+}
+.contact-ft .contact-us {
+  margin-top: 10px;
+}
+.contact-us i {
+  background: url(images/bird-ft.png);
+  width: 42px;
+  height: 32px;
+  display: inline-block;
+}
+.contact-us .contact {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+}
+.contact-ft .contact-us { margin-top: 5%;}
+.email-ft {
+  width: 33%;
+  height: 330px;
+  display: block;
+  float: left;
+}
+#colophon .telephone-ft i {
+  background: url(images/telephone.png);
+  height: 51px;
+  width: 48px;
+  display: inline-block;
+  margin-top: 10px;
+}
+#colophon .telephone-ft span {
+  position: relative;
+  bottom: 19px;
+  left: 24px;
+  font-size: 12px;
+  color: #fff;
+}
+#colophon .fax-ft i{
+  background: url('images/fax-ft.png');
+  height: 54px;
+  width: 59px;
+  display: block;
+  margin-top: 11px;
+  float: left;
+}
+#colophon .fax-ft span {
+  position: relative;
+  top: 24px;
+  left: 11px;
+  color: #fff;
+  font-size: 12px;
+}
+#colophon .mail-ft {
+  float: left;
+  display: block;
+  clear: both;
+}
+.email-ft span {
+  color: #fff;
+}
+#colophon .button-email {
+  background: url(images/button-mail.png) no-repeat;
+  height: 31px;
+  width: 87px;
+  display: block;
+  margin-left: 65%;
+}
+#colophon .button-email span {
+  padding-top: 5px;
+  padding-left: 15px;
+}
+#colophon .mail-ft i{
+  background: url('images/mail-ft.png');
+  height: 54px;
+  width: 45px;
+  display: inline-block;
+  clear: both;
+  margin-top: 11px;
+}
+#colophon .mail-ft span {
+  position: relative;
+  bottom: 22px;
+  display: inline-block;
+  left: 26px;
+  color: #fff;
+  font-size: 12px;
+}
+.welcome-ft {
+  width: 33%;
+  height: 330px;
+  display: block;
+  float: left;
+}
+.email-ft span {
+  display: block;
+  margin-top: 20%;
+  margin-left: 10%;
+  font-size: 12px;
+}
+.email-ft input {
+  margin-left: 9%;
+  width: 281px;
+  height: 33px;
+  margin-top: 4px;
+  border-radius: 5px;
+}
+.welcome-ft i {
+  background: url(images/bird-ft.png);
+  width: 42px;
+  height: 32px;
+  display: inline-block;
+  margin-top: 6%;
+  margin-left: 42%;
+}
+.welcome-ft .contact {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+}
+
 @media (max-width: 1080px) {
   .responsive.layout-boxed #page-wrapper {
     margin: 0;
@@ -573,6 +696,20 @@ header#masthead.masthead-logo-in-menu .logo > img {
   height: auto;
   max-width: 100%;
 }
+.main-navigation .it-logo {
+  background: url(images/it-logo.png);
+  height: 86px;
+  width: 226px;
+  display: inline-block;
+  top: 12px;
+  left: 14px;
+  position: absolute;
+  z-index: 1;
+}
+.menu-pages-container {
+  margin-left: 28%;
+  font-size: 22px;
+}
 .layout-boxed header#masthead.masthead-logo-in-menu img.logo {
   margin-left: 25px;
 }
@@ -593,6 +730,7 @@ body.ie-9 header#masthead .hgroup #header-sidebar {
   display: table;
   clear: both;
 }
+.
 #primary {
   float: left;
   width: 71.287%;
@@ -731,7 +869,6 @@ body.responsive.layout-boxed #page-wrapper {
   overflow-x: visible;
 }
 body.responsive.layout-full #page-wrapper .full-container {
-  max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -739,9 +876,10 @@ body.responsive.layout-full #page-wrapper .full-container {
 ----------------------------------------------- */
 .main-navigation {
   margin: 0 -35px;
-  background: #343538;
+  background: #2b3a41;
   font-size: 13px;
   position: relative;
+  height: 70px;
   /* Font awesome icons */
   /* General menu link styling */
   /* For when the menu becomes a sticky menu */
@@ -777,12 +915,37 @@ body.responsive.layout-full #page-wrapper .full-container {
   position: relative;
   float: left;
 }
+.news-homepage .post-each img {
+  width: 85px;
+  height: 85px;
+  float: left;
+}
+.news-homepage .list-news {
+  margin-left: 9%;
+}
+.news-homepage .post-each {
+  clear: both;
+  padding-top: 20px;
+  display: inline-block;
+  height: auto;
+  width: 486px;
+  border-bottom: 1px solid #d3d5d6;
+  padding-bottom: 15px;
+  position: relative;
+}
+.news-homepage .post-name {
+  font-size: 14px;
+  font-weight: bold;
+  width: 75%;
+  float: left;
+  margin-left: 5%;
+}
 .main-navigation ul li:hover > a {
   background: #00bcff;
   color: #FFFFFF;
 }
 .main-navigation ul li a {
-  padding: 20px 35px;
+  padding: 20px 20px;
   -ms-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1715,7 +1878,7 @@ article.page.post-with-thumbnail-icon .entry-main {
 ----------------------------------------------- */
 #colophon {
   margin-bottom: 20px;
-  background: #2f3033;
+  background: url(images/background-ft.jpg) repeat;
   padding: 30px;
 }
 #colophon #theme-attribution,
@@ -1736,10 +1899,10 @@ body.layout-full {
   background-color: #2f3033;
 }
 .layout-full #colophon {
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  margin: 0;
+  padding: 0;
+  height: 330px;
+  display: block;
 }
 #scroll-to-top {
   position: fixed;
@@ -3176,7 +3339,7 @@ span.date strong {
 }
 
 .portfolio-4 {
-	 height: 1226px;
+	 height: 1299px;
 }
 
 .portfolio  ul{
@@ -3221,4 +3384,45 @@ span.date strong {
 
 .also-game a{
 	font-style: italic;
+}
+.head-news {
+  width: 509px;
+  height: 56px;
+  background-color: #8ac83d;
+  margin-left: 25px;
+}
+.head-news span {
+  display: block;
+  margin-left: 20px;
+  height: 56px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 19px;
+  padding-left: 30px;
+}
+.news-left {
+  width: 50%;
+  float: left;
+}
+.video-right {
+  display: block;
+  float: left;
+  margin-left: 5%;
+}
+.video-right .video {
+  display: block;
+  margin-bottom: 5%;
+}
+.readmore-bt {
+  display: block;
+  float: right;
+  position: absolute;
+  right: 24px;
+  bottom: 12px;
+  border: 1px solid tan;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
+.single-post .full-container {
+	width: 75%;
 }

@@ -189,9 +189,8 @@ function vantage_register_scripts(){
 	wp_register_script( 'scrolljspage' , get_template_directory_uri() . '/js/jquery.mCustomScrollbar.js' , array('jquery'), '1.1' );
 	wp_register_script( 'flexslider' , get_template_directory_uri() . '/js/jquery.flexslider.min.js' , array('jquery'), '2.1' );
 	wp_register_script( 'fitvids' , get_template_directory_uri() . '/js/jquery.fitvids.min.js' , array('jquery'), '1.0' );
-	wp_register_script( 'bootrap' , get_template_directory_uri() . '/js/bootstrap.min.js' , array('jquery'), '1.0' );
 }
-add_action( 'wp_enqueue_scripts', 'vantage_register_scripts' , 7);
+add_action( 'wp_enqueue_scripts', 'vantage_register_scripts');
 
 /**
  * Enqueue scripts and styles
@@ -199,7 +198,6 @@ add_action( 'wp_enqueue_scripts', 'vantage_register_scripts' , 7);
 function vantage_scripts() {
 	wp_enqueue_style( 'vantage-style', get_stylesheet_uri(), array(), SITEORIGIN_THEME_VERSION );
 	wp_enqueue_script( 'vantage-main' , get_template_directory_uri() . '/js/jquery.theme-main.min.js', array('jquery', 'flexslider', 'fitvids'), SITEORIGIN_THEME_VERSION );
-	wp_register_script( 'scrolljspage' , get_template_directory_uri() . '/js/jquery.mCustomScrollbar.js' , array('jquery'), '1.1' );
 	wp_enqueue_style( 'vantage-fontawesome', get_template_directory_uri().'/fontawesome/css/font-awesome.css', array(), '3.2.1' );
 	wp_enqueue_style( 'vantage-bootrap', get_template_directory_uri().'/bootstrap.css', array()  , '1.0.0' );
 	wp_enqueue_style( 'vantage-animate', get_template_directory_uri().'/css/animate.css', array()  , '1.0.0' );
@@ -391,3 +389,31 @@ function vantage_responsive_header(){
 }
 add_action('wp_head', 'vantage_responsive_header');
 add_filter('show_admin_bar', '__return_false');
+
+
+function splitByWords($text, $splitLength = 200)
+{
+	// explode the text into an array of words
+	$wordArray = explode(' ', $text);
+
+	// Too many words
+	if( sizeof($wordArray) > $splitLength )
+	{
+		// Split words into two arrays
+		$firstWordArray = array_slice($wordArray, 0, $splitLength);
+		$lastWordArray = array_slice($wordArray, $splitLength+1, sizeof($wordArray));
+
+		// Turn array back into two split strings 
+		$firstString = implode(' ', $firstWordArray);
+		$lastString = implode(' ', $lastWordArray);
+		return array($firstString, $lastString);
+	}
+	// if our array is under the limit, just send it straight back
+	return array($text);
+}
+function theme_name_scripts() {
+	wp_enqueue_style( 'style-name', get_stylesheet_uri() );
+	wp_enqueue_script( 'bootrap-js-name', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '1.0.0', true );
+}
+
+add_action( 'wp_enqueue_scripts', 'theme_name_scripts' );

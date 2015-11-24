@@ -56,11 +56,6 @@ get_header(); ?>
 			</div>		
 		</div>
 	</section>
-					
-					
-					
-		
-
 			</div><!--/profile-->		
 				</div><!-- /shadowblock_out -->
 		</div><!-- /content-botbg -->

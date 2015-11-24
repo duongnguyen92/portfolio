@@ -13,7 +13,7 @@
 <!--			<div class="content">-->
 <!--				<img src="--><?php //echo get_template_directory_uri() ?><!--/slider/backgrounds/slide-plugins-overlay.png" width="1080" height="420" alt="--><?php //esc_attr_e('Demo Slide', 'vantage') ?><!--" />-->
 <!--			</div>-->
-			<img src="<?php echo get_template_directory_uri() ?>/slider/backgrounds/slide-1.jpg" class="msDefaultImage" width="1080" height="420" alt="<?php esc_attr_e('Demo Slide', 'vantage') ?>" />
+			<img src="<?php echo get_template_directory_uri() ?>/images/banner-top-head.jpg" class="msDefaultImage" width="1080" height="420" alt="<?php esc_attr_e('Demo Slide', 'vantage') ?>" />
 		</li>
 
 	</ul>

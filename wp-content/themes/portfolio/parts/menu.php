@@ -13,7 +13,7 @@
 				</form>
 			</div>
 		<?php endif; ?>
-
+		<i class="it-logo"></i>
 		<?php wp_nav_menu( array( 'theme_location' => 'primary', 'link_before' => '<span class="icon"></span>' ) ); ?>
 	</div>
 </nav><!-- .site-navigation .main-navigation -->
