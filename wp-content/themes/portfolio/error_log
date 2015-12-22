@@ -1,0 +1,1 @@
+[07-Oct-2015 01:39:28 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/nguyentuanduong/public_html/wp-content/themes/portfolio/index.php on line 16

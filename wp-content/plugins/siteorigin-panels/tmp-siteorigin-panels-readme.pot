@@ -1,0 +1,466 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Page Builder by SiteOrigin"
+msgstr ""
+
+#. Short description.
+msgid "Build responsive page layouts using the widgets you know and love using this simple drag and drop page builder."
+msgstr ""
+
+#. Screenshot description.
+msgid "The page builder interface."
+msgstr ""
+
+#. Screenshot description.
+msgid "Powerful widget insert dialog with groups and search."
+msgstr ""
+
+#. Screenshot description.
+msgid "Live Editor that lets you change your content in real time."
+msgstr ""
+
+#. Screenshot description.
+msgid "Undo changes with the History Browser."
+msgstr ""
+
+#. Screenshot description.
+msgid "Row Builder that gives unlimited flexibility."
+msgstr ""
+
+#. Found in description header.
+msgid "It works with your theme."
+msgstr ""
+
+#. Found in description header.
+msgid "No coding required."
+msgstr ""
+
+#. Found in description header.
+msgid "Live Editing."
+msgstr ""
+
+#. Found in description header.
+msgid "History Browser."
+msgstr ""
+
+#. Found in description header.
+msgid "Row and widget styles."
+msgstr ""
+
+#. Found in description header.
+msgid "It's free, and always will be."
+msgstr ""
+
+#. Found in description header.
+msgid "Actively Developed"
+msgstr ""
+
+#. Found in description header.
+msgid "Available in 17 Languages"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "[vimeo https://vimeo.com/114529361]"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Page Builder by SiteOrigin is the most popular page creation plugin for WordPress. It makes it easy to create responsive column based content, using the widgets you know and love. Your content will accurately adapt to all mobile devices, ensuring your site is mobile-ready. Read more on <a href=\"https://siteorigin.com/page-builder/\">SiteOrigin</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We've created an intuitive interface that looks just like WordPress itself. It's easy to learn, so you'll be building beautiful, responsive content in no time."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Page Builder works with standard WordPress widgets, so you'll always find the widget you need. We've created the SiteOrigin Widgets Bundle to give you all the most common widgets, and with a world of plugins out there, you'll always find the widget you need."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Page Builder gives you complete freedom to choose any WordPress theme you like. It's not a commitment to a single theme or theme developer. The advantage is that you're free to change themes as often as you like. Your content will always come along with you."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We've also made some fantastic <a href=\"https://siteorigin.com/theme/\">free themes</a> that work well with Page Builder."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Page Builder's simple drag and drop interface means you'll never need to write a single line of code. Page Builder generates all the highly efficient code for you."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We don't limit you with a set of pre-defined row layouts. Page Builder gives you complete flexibility. You can choose the exact number of columns for each row and the precise weight of each column - down to the decimal point. This flexibility is all possible using our convenient row builder. And, if you're not sure what you like, the Row Builder will guide you towards beautifully proportioned content using advanced ratios."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Page Builder supports live editing. This tool lets you see your content and edit widgets in real-time. It's the fastest way to adjust your content quickly and easily."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This tool lets you roll forward and back through your changes. It gives you the freedom to experiment with different layouts and content without the fear of breaking your content."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Row and widget styles give you all the control you need to make your content uniquely your own. Change attributes like paddings, background colours and column spacing. You can also enter custom CSS and CSS classes if you need even finer grained control."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Page Builder is our commitment to the democratization of content creation. Like WordPress, Page Builder is, and always will be free. We'll continue supporting and developing it for many years to come. It'll only get better from here."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We offer free support on the <a href=\"https://siteorigin.com/thread/\">SiteOrigin support forums</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Page Builder is actively developed with new features and exciting enhancements all the time. Keep track on the <a href=\"https://github.com/siteorigin/siteorigin-panels\">Page Builder GitHub repository</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Read the <a href=\"https://siteorigin.com/docs/page-builder/\">Page Builder developer docs</a> if you'd like to develop for Page Builder."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Through the efforts of both professional translators and our community, Page Builder is available in the following languages:  Afrikaans, Bulgarian, Chinese (simplified), Danish, Dutch, English, Finnish, French, German, Hindi, Italian, Japanese, Polish, Portuguese (BR), Russian, Spanish and Swedish."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Join our <a href=\"https://poeditor.com/join/project?hash=82847115cc12f5d35ec3d066495dca1a\">translation project</a> if you'd like to help improve our translations or add more languages."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload and install Page Builder in the same way you'd install any other plugin."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Read the <a href=\"http://siteorigin.com/page-builder/documentation/\">usage documentation</a> on SiteOrigin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various fixes to widget class names."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to remove default <code>widget</code> class from Page Builder widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added action to saving home page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for defaults in widget and row styles."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve check for the homepage in sidebars simulator."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed parallax library to improve theme compatibility."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "List privately published posts and pages under the prebuilt layout dialog Clone options."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added prebuilt layout directory."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added contextual menu for quick actions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added parallax background images."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Properly handle missing widgets when saving forms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't revert to default page template when using custom home page interface."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various minor bug fixes and improvements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed handling of checkboxes and array fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Properly position Page Builder tab in WordPress 4.3."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed handling of raw forms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed use of filter_input for compatibility with HHVM"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed checkbox handling in forms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed unnecessary sprintf calls to lower chance of translations causing issues."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "More generic handling of builder instances to allow them to be used in different places."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use implicit check for whether editor is undefined or null."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added optional $widget_id parameter to siteorigin_panels_render_form."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved checking for home page in sidebars emulator."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a builder \"type\" to allow more targetted instances."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed rendered content cache introduced in 2.1.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added translations for 16 additional languages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modified strings to improve translatability."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Row and Widget style measurement fields now allow multiple values."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New rows now added below row of currently selected cell."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Orphaned widgets in edited rows are now moved into remaining cell."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made panels javascript object globally accessible."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "panels_info array now passed into widget rendering function."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed unnecessary action triggers from customizer that was breaking some themes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disabling Page Builder on a page now properly creates history entry."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small fixes to sidebars emulator."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed import/export on custom home page interface."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed call to filter_input from global space."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bundled widgets conflict with Yoast SEO."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevented double rendering issue with Yoast SEO."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved Page Builder settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added sidebar emulation, which makes a Page Builder page appear to be a sidebar. Improves compatibility with other widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed jPlayer. Self hosted widget (legacy) now uses MediaElement."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small usability improvements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added legacy widget migration for gallery widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Layout file based import/export feature."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added widget title setting to change widget title HTML."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added setting to control full width container."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Handling of namespaced widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Layout Builder widget now works in the Customizer."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Custom home page interface now properly uses page_on_front."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Page URL for home page in custom home page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Custom home page encoding."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue that prevented prebuilt layouts from showing up."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added nonce to all admin requests."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed live editor for missing widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed handling of multi-line row/widget custom CSS."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with encoding of panels_data."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added proper escaping in widget form."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed how data is json encoded to prevent malformed Page Builder data."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed import/export."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added layout widget notification (doesn't work in customizer)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed translation domains."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Additional hooks and filters."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with double calling sidebar_admin_setup that was breaking some widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed fetching content from TinyMCE in text mode."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed fatal error in validation for PHP &lt; 5.5"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with preview causing content loss in standard editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with Black Studio TinyMCE"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed templating tags in js-templates.php to prevent fatal errors with some server configurations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Complete rewrite of Page Builder Javascript using Backbone."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Complete UI redesign."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Grid Engine rewrite for more efficient CSS."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various performance enhancements and bug fixes."
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I move a site created with Page Builder from one server to another?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I bundle Page Builder with my theme?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Will plugin X work with Page Builder?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We recommend the <a href=\"https://wordpress.org/plugins/duplicator/\">duplicator plugin</a>. We've tested it in several instances and it always works well with Page Builder data."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, provided your theme is licensed under GPL or a compatible license. If you're publishing your theme on ThemeForest, you must select the GPL license instead of their regular license."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Page Builder is actively developed and updated, so generally I'd recommend that you have your users install the original plugin so they can receive updates. You can try <a href=\"http://tgmpluginactivation.com/\">TGM Plugin Activation</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We've tried to ensure that Page Builder is compatible with most plugin widgets. It's best to just download Page Builder and test for yourself."
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Documentation"
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "<a href=\"http://siteorigin.com/page-builder/documentation/\">Documentation</a> is available on SiteOrigin."
+msgstr ""

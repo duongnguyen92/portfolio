@@ -1,0 +1,9 @@
+[29-Sep-2015 16:35:19 UTC] PHP Fatal error:  Call to undefined function splitByWords() in /home/nguyentuanduong/public_html/wp-content/themes/portfolio/home-panels.php on line 43
+[29-Sep-2015 16:35:50 UTC] PHP Fatal error:  Call to undefined function splitByWords() in /home/nguyentuanduong/public_html/wp-content/themes/portfolio/home-panels.php on line 43
+[16-Nov-2015 16:08:27 UTC] PHP Fatal error:  Call to undefined function echothe_post_thumbnail() in /home/nguyentuanduong/public_html/wp-content/themes/portfolio/home-panels.php on line 37
+[16-Nov-2015 16:23:47 UTC] PHP Fatal error:  Function name must be a string in /home/nguyentuanduong/public_html/wp-content/themes/portfolio/home-panels.php on line 26
+[23-Nov-2015 17:06:47 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nguyentuanduong/public_html/wp-content/themes/portfolio/home-panels.php on line 77
+[23-Nov-2015 17:09:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nguyentuanduong/public_html/wp-content/themes/portfolio/home-panels.php on line 77
+[23-Nov-2015 17:22:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nguyentuanduong/public_html/wp-content/themes/portfolio/home-panels.php on line 63
+[23-Nov-2015 18:00:05 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/nguyentuanduong/public_html/wp-content/themes/portfolio/home-panels.php on line 42
+[23-Nov-2015 18:01:41 UTC] PHP Fatal error:  Cannot use object of type WP_Post as array in /home/nguyentuanduong/public_html/wp-content/themes/portfolio/home-panels.php on line 42
